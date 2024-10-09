@@ -27,7 +27,7 @@ const MyProject = () => {
                     <div className="rounded-md space-y-3 px-3 py-8">
                         <div className="bg-[#FFEBDB] flex">
                             <Image className="z-20 shadow" src={pro1p1} alt="skill images" width={270} height={350}></Image>
-                            <Image className="z-10 shadow-sm" src={pro1p2} alt="skill images" width={270} height={490}></Image>
+                            {/* <Image className="z-10 shadow-sm" src={pro1p2} alt="skill images" width={270} height={490}></Image> */}
                         </div> 
                         <h4 className="md:text-xl text-lg font-normal text-[#FD6F00]">Web Design</h4>
                         <p className="md:text-2xl text-xl  text-black/90">AirCalling Landing Page Design </p>
