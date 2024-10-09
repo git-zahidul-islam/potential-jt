@@ -24,6 +24,10 @@ const Testimonials = dynamic(() => import('@/components/Testimonials'),{
   ssr: true,
   loading: () => <div className="h-[100px] bg-green-500 w-full animate-bounce duration-700"></div>
 })
+const Footer = dynamic(() => import('@/shared/Footer'),{
+  ssr: true,
+  loading: () => <div className="h-[100px] bg-green-500 w-full animate-bounce duration-700"></div>
+})
 
 export default function Home() {
   return (
@@ -34,7 +38,7 @@ export default function Home() {
       <Services/>
       <MyProject/>
       <Testimonials/>
-      <h1>dhfohshfsifisifvgbsi</h1>
+      <Footer/>
     </div>
   );
 }

@@ -10,7 +10,6 @@ const Banner = () => {
     return (
         <section className="md:w-[80%] w-full mx-auto md:px-0 px-2 md:py-16 py-6">
             <div className="flex md:flex-row flex-col gap-2">
-                
             <div className="md:space-y-3 space-y-2 md:w-[50%] w-full">
                 <p className="md:text-2xl text-lg font-semibold text-[#000000]">Hi I am</p>
                 <div>
