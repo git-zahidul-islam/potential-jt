@@ -51,7 +51,7 @@ const Navbar = () => {
           <div className="hidden md:flex space-x-4 items-center">
             <a
               href="/login"
-              className="px-4 py-2 bg-[#FD6F00] text-white/90 rounded text-xl font-normal"
+              className="px-4 pb-[6px]  bg-[#FD6F00] text-white/90 rounded text-xl font-normal"
             >
               Appointment
             </a>
