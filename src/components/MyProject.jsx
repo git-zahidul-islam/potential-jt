@@ -24,13 +24,32 @@ const MyProject = () => {
                 </div>
 
                 <div className="md:mt-8 mt-4 grid md:grid-cols-3 grid-cols-1 gap-5">
-                    <div className="rounded-md space-y-3 px-3 py-8">
-                        <div className="bg-[#FFEBDB] flex">
-                            <Image className="z-20 shadow" src={pro1p1} alt="skill images" width={270} height={350}></Image>
-                            {/* <Image className="z-10 shadow-sm" src={pro1p2} alt="skill images" width={270} height={490}></Image> */}
+                    {/* project 01 */}
+                    <div className="space-y-3 py-8">
+                        <div className="bg-[#FFEBDB] flex h-[490px] justify-end pr-4 relative rounded-md">
+                            <Image src={pro1p1} alt="skill images" width={240} height={350}></Image>
+                            <Image className="shadow-sm absolute -bottom-1 md:right-24 right-11" src={pro1p2} alt="skill images" width={250} height={590}></Image>
                         </div> 
                         <h4 className="md:text-xl text-lg font-normal text-[#FD6F00]">Web Design</h4>
                         <p className="md:text-2xl text-xl  text-black/90">AirCalling Landing Page Design </p>
+                    </div>
+                    {/* project 02 */}
+                    <div className="space-y-3 py-8">
+                        <div className="bg-[#FFEBDB] flex h-[490px] justify-end pr-4 relative rounded-md">
+                            <Image src={pro2p1} alt="skill images" width={240} height={355}></Image>
+                            <Image className="shadow-sm absolute -bottom-1 md:right-24 right-11" src={pro2p2} alt="skill images" width={250} height={590}></Image>
+                        </div> 
+                        <h4 className="md:text-xl text-lg font-normal text-[#FD6F00]">Web Design</h4>
+                        <p className="md:text-2xl text-xl  text-black/90">Business Landing Page Design</p>
+                    </div>
+                    {/* project 01 */}
+                    <div className="space-y-3 py-8">
+                        <div className="bg-[#FFEBDB] flex h-[490px] justify-end pr-4 relative rounded-md">
+                            <Image src={pro3p1} alt="skill images" width={240} height={350}></Image>
+                            <Image className="shadow-sm absolute -bottom-1 md:right-24 right-11" src={pro3p2} alt="skill images" width={250} height={590}></Image>
+                        </div> 
+                        <h4 className="md:text-xl text-lg font-normal text-[#FD6F00]">Web Design</h4>
+                        <p className="md:text-2xl text-xl  text-black/90">Ecom Web Page Design </p>
                     </div>
                     
                 </div>
