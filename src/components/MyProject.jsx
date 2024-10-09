@@ -10,17 +10,17 @@ import pro3p2 from '../assets/projects/pro3p2.png'
 
 const MyProject = () => {
     return (
-        <section className="md:w-[80%] w-full mx-auto md:px-0 px-2 md:py-16 py-6">
+        <section className="md:w-[80%] w-full mx-auto md:px-0 px-2 md:pb-16 pb-6">
             <div>
-                <h1 className="md:text-[65px] text-[40px] text-center font-semibold text-black/95">Services</h1>
+                <h1 className="md:text-[65px] text-[40px] text-center font-semibold text-black/95">Projects</h1>
                 <p className="md:text-xl text-lg font-normal text-[#000000f2] md:w-[70%] w-full mx-auto text-center">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
 
-                <div className="flex justify-center items-center gap-3">
-                    <p className="px-5 py-1 border border-[#545454ca] rounded-md">All</p>
-                    <p className="px-5 py-1 border border-[#545454ca] rounded-md">UI/UX</p>
-                    <p className="px-5 py-1 border border-[#545454ca] rounded-md bg-[#FD6F00]">Web Design</p>
-                    <p className="px-5 py-1 border border-[#545454ca] rounded-md">App Design</p>
-                    <p className="px-5 py-1 border border-[#545454ca] rounded-md">Graphic Design</p>
+                <div className="flex justify-center flex-wrap items-center gap-3 md:mt-5 mt-2">
+                    <p className="px-5 py-1 font-medium border border-[#545454ca] rounded-md">All</p>
+                    <p className="px-5 py-1 font-medium border border-[#545454ca] rounded-md">UI/UX</p>
+                    <p className="px-5 py-1 font-medium text-white rounded-md bg-[#FD6F00]">Web Design</p>
+                    <p className="px-5 py-1 font-medium border border-[#545454ca] rounded-md">App Design</p>
+                    <p className="px-5 py-1 font-medium border border-[#545454ca] rounded-md">Graphic Design</p>
                 </div>
 
                 <div className="md:mt-8 mt-4 grid md:grid-cols-3 grid-cols-1 gap-5">

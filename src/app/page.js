@@ -20,6 +20,10 @@ const MyProject = dynamic(() => import('@/components/MyProject'),{
   ssr: true,
   loading: () => <div className="h-[100px] bg-green-500 w-full animate-bounce duration-700"></div>
 })
+const Testimonials = dynamic(() => import('@/components/Testimonials'),{
+  ssr: true,
+  loading: () => <div className="h-[100px] bg-green-500 w-full animate-bounce duration-700"></div>
+})
 
 export default function Home() {
   return (
@@ -29,6 +33,7 @@ export default function Home() {
       <AboutMe/>
       <Services/>
       <MyProject/>
+      <Testimonials/>
       <h1>dhfohshfsifisifvgbsi</h1>
     </div>
   );
