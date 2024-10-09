@@ -12,6 +12,10 @@ const AboutMe = dynamic(() => import('@/components/AboutMe'),{
   ssr: true,
   loading: () => <div className="h-[100px] bg-green-500 w-full animate-bounce duration-700"></div>
 })
+const Services = dynamic(() => import('@/components/Services'),{
+  ssr: true,
+  loading: () => <div className="h-[100px] bg-green-500 w-full animate-bounce duration-700"></div>
+})
 
 export default function Home() {
   return (
@@ -19,6 +23,7 @@ export default function Home() {
       <Navbar/>
       <Banner/>
       <AboutMe/>
+      <Services/>
       <h1>dhfohshfsifisifvgbsi</h1>
     </div>
   );
