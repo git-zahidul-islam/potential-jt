@@ -8,12 +8,17 @@ const Banner = dynamic(() => import('@/components/Banner'),{
   ssr: true,
   loading: () => <div className="h-[100px] bg-green-500 w-full animate-bounce duration-700"></div>
 })
+const AboutMe = dynamic(() => import('@/components/AboutMe'),{
+  ssr: true,
+  loading: () => <div className="h-[100px] bg-green-500 w-full animate-bounce duration-700"></div>
+})
 
 export default function Home() {
   return (
     <div>
       <Navbar/>
       <Banner/>
+      <AboutMe/>
       <h1>dhfohshfsifisifvgbsi</h1>
     </div>
   );

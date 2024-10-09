@@ -24,14 +24,15 @@ const Banner = () => {
             </div>
 
 
-            <div className="md:w-[50%] w-full flex flex-col justify-center items-center space-y-5">
+            <div className="md:w-[50%] w-full flex flex-col justify-center items-center space-y-5 relative">
                 <Image src={bannerImage} alt="banner image" width={420} height={510}></Image>
-                <div className="flex gap-2 items-center">
+                <div className="flex gap-3 items-center">
                     <FaFacebook size={30}/>
                     <FaTwitter size={30}/>
                     <FaInstagram size={30}/>
                     <FaLinkedin size={30}/>
                 </div>
+                <div className="h-[70px] w-[40%] bg-[#FD6F00] opacity-70 absolute top-10 right-30"></div>
             </div>
         </div>
         </section>
