@@ -10,7 +10,7 @@ import pro3p2 from '../assets/projects/pro3p2.png'
 
 const MyProject = () => {
     return (
-        <section className="md:w-[80%] w-full mx-auto md:px-0 px-2 md:pb-16 pb-6">
+        <section id="project" className="md:w-[80%] w-full mx-auto md:px-0 px-2 md:pb-16 pb-6">
             <div>
                 <h1 className="md:text-[65px] text-[40px] text-center font-semibold text-black/95">Projects</h1>
                 <p className="md:text-xl text-lg font-normal text-[#000000f2] md:w-[70%] w-full mx-auto text-center">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>

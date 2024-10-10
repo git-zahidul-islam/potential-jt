@@ -3,7 +3,7 @@ import testimonialsImage1 from '../assets/testimonials/Ellipse 10.png'
 
 const Testimonials = () => {
     return (
-        <section className="md:w-[80%] w-full mx-auto md:px-0 px-2 md:pb-16 pb-6">
+        <section id="testimonials" className="md:w-[80%] w-full mx-auto md:px-0 px-2 md:pb-16 pb-6">
             <div className="space-y-3">
                 <h1 className="md:text-[60px] text-[40px] font-semibold text-center">Testimonials</h1>
                 <p className="text-xl font-normal md:w-[70%] mx-auto text-center">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>

@@ -20,6 +20,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <p className="md:text-xl text-lg font-normal md:pt-6">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
+                
                 <button className="text-lg bg-[#FD6F00] px-5 py-1 text-white/90 rounded-md">Hire Me</button>
             </div>
 

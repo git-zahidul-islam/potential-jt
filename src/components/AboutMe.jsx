@@ -51,7 +51,7 @@ const AboutMe = () => {
   }, [inView]);
 
   return (
-    <section ref={sectionRef} className="md:w-[80%] w-full mx-auto md:px-0 px-2 md:pb-16 pb-6">
+    <section id="about-me" ref={sectionRef} className="md:w-[80%] w-full mx-auto md:px-0 px-2 md:pb-16 pb-6">
       <div className="flex md:flex-row flex-col-reverse gap-2">
         <div className="md:w-[50%] w-full flex flex-col justify-center items-center space-y-5 relative">
           <Image

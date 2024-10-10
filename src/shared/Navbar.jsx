@@ -14,12 +14,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="h-[67px] w-full text-black md:py-16 flex items-center relative">
+    <nav id="#nav" className="h-[67px] w-full text-black md:py-16 flex items-center relative">
       <div className="md:w-[80%] w-full mx-auto px-4 md:px-0 lg:px-0">
         <div className="flex items-center justify-between h-[67px]">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="/" className="text-xl font-bold flex gap-3 items-center justify-center">
+            <a href="#" className="text-xl font-bold flex gap-3 items-center justify-center">
             <Image src={logo} alt="logo" width={45} height={45}></Image>
             <h1 className="md:text-[45px] text-[35px] md:block hidden"><span className="font-bold text-[#000000f0]">M</span><span className="font-normal text-[#8a8a8a]">umair</span></h1>
             </a>
@@ -27,35 +27,36 @@ const Navbar = () => {
 
           {/* Menu for larger screens */}
           <div className="hidden md:flex space-x-8 items-center">
-            <a className="text-xl font-normal" href="/">
+            <a className="text-xl font-normal" href="#nav">
               Home
             </a>
-            <a className="text-xl font-normal" href="/services">
+            <a className="text-xl font-normal" href="#about-me">
               About Me
             </a>
-            <a className="text-xl font-normal" href="/blog">
+            <a className="text-xl font-normal" href="#service">
               Services
             </a>
-            <a className="text-xl font-normal" href="/contact">
+            <a className="text-xl font-normal" href="#project">
               Project
             </a>
-            <a className="text-xl font-normal" href="/contact">
+            <a className="text-xl font-normal" href="#testimonials">
             Testimonials
             </a>
-            <a className="text-xl font-normal" href="/contact">
+            <a className="text-xl font-normal" href="#contact">
             Contact
             </a>
           </div>
 
           {/* Right-side buttons */}
           <div className="hidden md:flex space-x-4 items-center">
-            <a
-              href="/login"
-              className="px-4 pb-[6px]  bg-[#FD6F00] text-white/90 rounded text-xl font-normal"
-            >
-              Appointment
-            </a>
-          </div>
+  <a
+    href="/login"
+    className="px-4 pb-[6px] bg-[#fd6e00ea] text-white/90 rounded text-xl font-normal transition duration-300 ease-in-out transform hover:bg-[#FD6F00] hover:scale-105"
+  >
+    Appointment
+  </a>
+</div>
+
 
           {/* Mobile menu button */}
           <div className="flex items-center md:hidden z-50">
@@ -73,37 +74,37 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-[#ff9654] pb-5 absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center text-white/85 text-xl z-20">
           <a
-            href="/"
+            href="#nav"
             className="block px-4 py-2"
           >
             Home
           </a>
           <a
-            href="/services"
+            href="#about-me"
             className="block px-4 py-2"
           >
             About Me
           </a>
           <a
-            href="/blog"
+            href="#service"
             className="block px-4 py-2"
           >
             Services
           </a>
           <a
-            href="/contact"
+            href="#project"
             className="block px-4 py-2"
           >
             Projects
           </a>
           <a
-            href="/contact"
+            href="#testimonials"
             className="block px-4 py-2"
           >
             Testimonials
           </a>
           <a
-            href="/contact"
+            href="#contact"
             className="block px-4 py-2"
           >
             Contact
